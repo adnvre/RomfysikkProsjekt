@@ -9,7 +9,7 @@
 \usepackage{xcolor}
 \usepackage{float}
 \usepackage{amsmath}
-
+\usepackage{hyperref}
 
 \setlength{\parindent}{0em}
 
@@ -64,13 +64,36 @@
 
 \section{Introduction} % (Introduction to project and theoretical background)
 \label{sec:intro}
+	As society moves towards more automatization, accurate, globally available navigational tools are coming in demand. A solution to this is using satellites. 			There are some problems however. Satellites (and in some cases even earthbound equipment) are susceptible to bad space weather. Having your self-			driving car suddenly acting up is not desirable. Predicting when equipment will be in danger of getting hit by high energy particles is therefore of interest.\\ 
+	\\
+	In this report, we will be looking at data from several instruments measuring properties of the solar wind and the interplanetary magnetic field (IMF) along 			with auroras and some ionospheric currents.  We will also be looking at some potential consequences of the measurements.
 
 
 
 
+\newpage
 \subsection{Theory} % (The theoretical part of the intro)
 \label{sub:theory}
-Get some theory up in this bitch
+	\subsubsection{The Sun:} 
+		The root of all our problems is the star in the center of our solar system: the sun.\\
+		\\
+		\textbf{IMF}\\
+		The sun, like the earth, has a magnetic field. This magnetic field stretches throughout the solar system, and has fittingly been dubbed the 						interplanetary magnetic field. What causes this magnetic field is beyond the scope of this report, but it is seemingly quite erratic, changing changing 				sign and field strength often.\\
+		Something more constant about the imf is the general direction of the field lines. Due to the rotation of the sun, the magnetic field lines end up looking 			like archimedian spirals (or a ballerina skirt in 3 dimensions).
+		\begin{figure}[H]
+			\includegraphics[scale = 0.3]{Figures/artistic_imf.png}
+			\centering
+			\caption{An artistic rendition of the interplanetary magnetic field. With the sun in the middle and rotating, the magnetic field lines end up forming 					     archimedian spirals.}
+			\label{fig::spirals}
+		\end{figure}
+
+		\textbf{Solar Wind}\\
+		Accompanying the magnetic field lines is plasma streams. Ejected from the suns corona, these plasma streams of varying velocity and density can also                         		be drawn like figure \ref{fig::spirals}.\\
+		Carrying large amount of highly energized ionized particles, the solar wind is of great interest to us. Knowing the density and velocity of the solar wind 				is necesarry in understanding the consequences of its interactions with earth and its satellites.\\
+		\\
+		\textbf{Coronal mass ejection}\\
+		
+		
 % subsection theory (end)
 
 % section introduction (end)
