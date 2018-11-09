@@ -152,13 +152,30 @@
 \section{instruments} % (description of the instrumenst used in this project)
 \label{sec:instruments}
 
+\subsubsection{Ground based magnetometer; IMAGE}
+Knowing the B field at ground level is of interest. Luckily for us, there is a network of groundbased magnetometers known as the International Monitor for Auroral Geomagnetic Effects; IMAGE.\\
+\begin{figure}[H]
+\includegraphics[scale = 0.5]{Figures/magnetometer_map.pdf}
+\centering
+\caption{A map showing the IMAGE stations. Source: http://space.fmi.fi/image/www/index.php?page=maps}
+\end{figure}
 
+When charged particles start flowing in the ionosphere, it creates a B field in accordance with Ampere's law. For example, if we have a dawn-dusk current inside the polar circle, we can notice it by measuring the B field perpendicular to it.\\
+Knowing the coordinate system used by IMAGE is important when reading its data. IMAGE operates using 3 coordinates: X, Y and Z.\\
+The X coordinate always points towards the north pole from the magnetometer, akin to latitude. The Y coordinate always points towards the east, aking to longitude. The Z coordinate points towards the sky, perpendicular to the earth from where the magnetometer is.
 
+\subsubsection{Super Dual Auroral Radar Network; SuperDARN}
+SuperDARN is a network of radars used to measure plasma flow in the ionosphere. By using data from SuperDARN, one can make a convection flow chart that tells us what the Hall-current looks like at a certain time.
+
+\subsubsection{All-Sky Camera}
+As the auroras emit very specific wavelengths, it is possible to measure the level of auroras by measuring the intensity of these wavelengths. On Svalbard, the University of Oslo have placed All-Sky Imagers that measure the intensity of these wavelengths for much of the night sky by using a fish-eye lense, filters and a photon counter. By slicing these circular pictures into lines going from low to high latitude and combining them, one can make a keogram that describes the development of the aurora over time.\\
+One must be careful when reading keograms however, as they are prone to errors due to atmospheric conditions. For example, if there are clouds, they will block a lot of the light. Clouds tend to drift across the sky, so its possible to tell from a glance that a keogram has been affected by clouds if the light from the auroras also seem to drift.
 
 % section instruments (end)
 
 \section{Observations} % (Detailed description of our observations, with all the graphs and figures nescessary)
 \label{sec:observations}
+
 
 
 
