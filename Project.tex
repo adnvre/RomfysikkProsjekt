@@ -11,6 +11,8 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 
+
+
 \setlength{\parindent}{0em}
 
 \definecolor{background}{gray}{0.9}
@@ -66,7 +68,7 @@
 \label{sec:intro}
 	As society moves towards more automatization, accurate, globally available navigational tools are coming in demand. A solution to this is using satellites. 			There are some problems however. Satellites (and in some cases even earthbound equipment) are susceptible to bad space weather. Having your self-			driving car suddenly acting up is not desirable. Predicting when equipment will be in danger of getting hit by high energy particles is therefore of interest.\\ 
 	\\
-	In this report, we will be looking at data from several instruments measuring properties of the solar wind and the interplanetary magnetic field (IMF) along 			with auroras and some ionospheric currents.  We will also be looking at some potential consequences of the measurements.
+	In this report, we will be looking at data from several instruments measuring properties of the solar wind and the interplanetary magnetic field (IMF) along 			with auroras and some ionospheric currents from 06.01.2011. We will also be looking at some potential consequences of the measurements.
 
 
 
@@ -158,6 +160,7 @@ Knowing the B field at ground level is of interest. Luckily for us, there is a n
 \includegraphics[scale = 0.5]{Figures/magnetometer_map.pdf}
 \centering
 \caption{A map showing the IMAGE stations. Source: http://space.fmi.fi/image/www/index.php?page=maps}
+\label{fig::image_map}
 \end{figure}
 
 When charged particles start flowing in the ionosphere, it creates a B field in accordance with Ampere's law. For example, if we have a dawn-dusk current inside the polar circle, we can notice it by measuring the B field perpendicular to it.\\
@@ -176,9 +179,39 @@ One must be careful when reading keograms however, as they are prone to errors d
 \section{Observations} % (Detailed description of our observations, with all the graphs and figures nescessary)
 \label{sec:observations}
 
+\subsubsection{IMAGE data}
+Here is the IMAGE data from the sixth of january 2011. As we can see, things are relatively quiet until around 10 pm. 
+\begin{figure}[H]
+\includegraphics[scale = 0.9]{Figures/X_gram.jpg}
+\includegraphics[scale = 0.9]{Figures/Y_gram.jpg}
+\includegraphics[scale = 0.9]{Figures/Z_gram.jpg}
+\centering
+\caption{IMAGE data. The letters on the side refer to stations seen in figure \ref{fig::image_map}. Source: http://space.fmi.fi/image/www/index.php?page=home }
+\label{fig::image_data}
+\end{figure}
 
+\subsubsection{SuperDARN data}
+Here is some of the data from SuperDARN for the sixth of january 2011. We have chosen to include data for times that indicate the development of the ionospheric currents over time. 
 
+\begin{figure}[H]
+\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_21_30.jpg}
+\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_21_52.jpg}
+\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_22_32.jpg}
+\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_23_52.jpg}
+\centering
+\caption{Convection maps derived from SuperDARN data. The vector arrows indicate measured data, while the streamlines indicate derived plasma flow. Source: http://vt.superdarn.org/tiki-index.php}
+\label{fig::superdarn_data}
+\end{figure}
 
+\subsubsection{All-sky Camera data}
+Here we have 2 keograms from the sixth of january 2011. The 2 keograms depict the development of auroras over time by measuring the intensity of 557 nm and 630 nm light.
+
+\begin{figure}[H]
+\includegraphics[scale = 0.2]{Figures/nya4_20110106_0000-2400_5577.png}
+\includegraphics[scale = 0.2]{Figures/nya4_20110106_0000-2400_6300.png}
+\centering
+\caption{Keograms showing development of aurora over Ny Ålesund the sixth of february 2011. Source: http://tid.uio.no/plasma/aurora/}
+\end{figure}
  
 % section observations (end)
 
