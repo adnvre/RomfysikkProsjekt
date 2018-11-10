@@ -1,4 +1,4 @@
-\documentclass[norsk,a4paper,12pt]{article}
+\documentclass[norsk,a4paper,11pt]{article}
 \usepackage[T1]{fontenc} %for å bruke æøå
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx} %for å inkludere grafikk
@@ -80,7 +80,7 @@
 		The root of all our problems is the star in the center of our solar system: the sun.\\
 		\\
 		\textbf{IMF}\\
-		The sun, like the earth, has a magnetic field. This magnetic field stretches throughout the solar system, and has fittingly been dubbed the 						interplanetary magnetic field. What causes this magnetic field is beyond the scope of this report, but it is seemingly quite erratic, changing changing 				sign and field strength often.\\
+		The sun, like the earth, has a magnetic field. This magnetic field stretches throughout the solar system, and has fittingly been dubbed the 						interplanetary magnetic field. What causes this magnetic field is beyond the scope of this report, but it is seemingly quite erratic, changing 				sign and field strength often.\\
 		Something more constant about the imf is the general direction of the field lines. Due to the rotation of the sun, the magnetic field lines end up looking 			like archimedian spirals (or a ballerina skirt in 3 dimensions).
 		\begin{figure}[H]
 			\includegraphics[scale = 0.3]{Figures/artistic_imf.png}
@@ -154,7 +154,7 @@
 \section{instruments} % (description of the instrumenst used in this project)
 \label{sec:instruments}
 
-\subsubsection{Ground based magnetometer; IMAGE}
+\subsection{Ground based magnetometer; IMAGE}
 Knowing the B field at ground level is of interest. Luckily for us, there is a network of groundbased magnetometers known as the International Monitor for Auroral Geomagnetic Effects; IMAGE.\\
 \begin{figure}[H]
 \includegraphics[scale = 0.5]{Figures/magnetometer_map.pdf}
@@ -167,19 +167,44 @@ When charged particles start flowing in the ionosphere, it creates a B field in 
 Knowing the coordinate system used by IMAGE is important when reading its data. IMAGE operates using 3 coordinates: X, Y and Z.\\
 The X coordinate always points towards the north pole from the magnetometer, akin to latitude. The Y coordinate always points towards the east, aking to longitude. The Z coordinate points towards the sky, perpendicular to the earth from where the magnetometer is.
 
-\subsubsection{Super Dual Auroral Radar Network; SuperDARN}
+\subsection{Super Dual Auroral Radar Network; SuperDARN}
 SuperDARN is a network of radars used to measure plasma flow in the ionosphere. By using data from SuperDARN, one can make a convection flow chart that tells us what the Hall-current looks like at a certain time.
 
-\subsubsection{All-Sky Camera}
+\subsection{All-Sky Camera}
 As the auroras emit very specific wavelengths, it is possible to measure the level of auroras by measuring the intensity of these wavelengths. On Svalbard, the University of Oslo have placed All-Sky Imagers that measure the intensity of these wavelengths for much of the night sky by using a fish-eye lense, filters and a photon counter. By slicing these circular pictures into lines going from low to high latitude and combining them, one can make a keogram that describes the development of the aurora over time.\\
 One must be careful when reading keograms however, as they are prone to errors due to atmospheric conditions. For example, if there are clouds, they will block a lot of the light. Clouds tend to drift across the sky, so its possible to tell from a glance that a keogram has been affected by clouds if the light from the auroras also seem to drift.
+
+\subsection{Advanced Composition Explorer (ACE)} % (Short description of the ACE satellite)
+\label{sub:ACE}
+	In this project we are using data from a heliospheric satellite called ACE, which stands for Advanced Composition Explorer. ACE is a NASA satellite that gives us info about the solar wind. It is positioned in the L1 liberation point, about 1.5 million km from the Earth. The instrumentation on the satellite includes an Electron, Proton and Alpha Monitor(EPAM) from Johns Hopkins University Applied Physics Laboratory. Magnetic Field (MAG) from the University of Delaware Bartol Research Institute and subsequently University of New Hampshire. Solar Isotope Spectrometer (SIS) California Institute of Technology. Solar Wind Electron Proton and Alpha Monitor (SWEPAM) Los Alamos National Laboratory. We will be using the MAG and the SEWPAM. \\
+
+	The MAG can give us the B-field magnitude and the magnetic field vector in different coordinate systems, such as GSM, GSE and RTN. The SWEPAM gives us information about the solar wind(SW) proton number density, the SW bulk speed, alpha to proton density ratio, the SW velocity in the same coordinate systems as the MAG and also the position of ACE.
+% subsection ACE (end)
+
+\subsection{Indices} % (Short description of the instrument indices)
+\label{sub:indices}
+
+\subsubsection{Dst (Disturbance storm time)} % (Dst explaind)
+\label{sub:Dst}
+With the Dst we can observe geomagnetic storms.
+% subsubsection Dst (end)
+
+\subsubsection{Auroral Electrojet (AE) Index} % (AE explained)
+\label{sub:AE index}
+Using the AE index we can observe substorms. The AE index measures the strenght of the auroral current systems. These current are at low altitudes(near 100 km) and high latitudes (near 70$^\circ$). There are 12 stations that measure this. The AE is comprised of AU(upper envelope, eastward auroral electrojet) and AL(lower envelope, westward auroral electrojet), so AE = AU-AL which gives us the overall activity of the electrojets
+% subsubsection AE index (end)
+
+% subsection indices (end)
+
+
+
 
 % section instruments (end)
 
 \section{Observations} % (Detailed description of our observations, with all the graphs and figures nescessary)
 \label{sec:observations}
 
-\subsubsection{IMAGE data}
+\subsection{IMAGE data}
 Here is the IMAGE data from the sixth of january 2011. As we can see, things are relatively quiet until around 10 pm. 
 \begin{figure}[H]
 \includegraphics[scale = 0.9]{Figures/X_gram.jpg}
@@ -190,20 +215,20 @@ Here is the IMAGE data from the sixth of january 2011. As we can see, things are
 \label{fig::image_data}
 \end{figure}
 
-\subsubsection{SuperDARN data}
+\subsection{SuperDARN data}
 Here is some of the data from SuperDARN for the sixth of january 2011. We have chosen to include data for times that indicate the development of the ionospheric currents over time. 
 
 \begin{figure}[H]
-\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_21_30.jpg}
-\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_21_52.jpg}
-\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_22_32.jpg}
-\includegraphics[scale = 1.1]{Figures/Superdarn/superdarn_23_52.jpg}
+\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_21_30.jpg}
+\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_21_52.jpg}
+\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_22_32.jpg}
+\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_23_52.jpg}
 \centering
 \caption{Convection maps derived from SuperDARN data. The vector arrows indicate measured data, while the streamlines indicate derived plasma flow. Source: http://vt.superdarn.org/tiki-index.php}
 \label{fig::superdarn_data}
 \end{figure}
 
-\subsubsection{All-sky Camera data}
+\subsection{All-sky Camera data}
 Here we have 2 keograms from the sixth of january 2011. The 2 keograms depict the development of auroras over time by measuring the intensity of 557 nm and 630 nm light.
 
 \begin{figure}[H]
