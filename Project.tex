@@ -186,13 +186,18 @@ One must be careful when reading keograms however, as they are prone to errors d
 
 \subsubsection{Dst (Disturbance storm time)} % (Dst explaind)
 \label{sub:Dst}
-With the Dst we can observe geomagnetic storms.
+With the Dst we can observe geomagnetic storms. The Dst is a quantification of the ring current and is an hourly scaling of the horizontal magnetic variation. Since the current flows in the equatorial magnetosphere, it is best sensed at low-latitude stations. These stations are sufficciently far from the equatorial electrojet so it is not disturbed by those ionospheric currents have litte effect on the magnetic field variations. The auroral currents also have little effect. They use the quiet days to establish the benchmark or background levels of the magnetic field and the average minimum ring current. This is then subtracted from the records so the disturbance is the important part. The world average is called the Dst. 
 % subsubsection Dst (end)
 
 \subsubsection{Auroral Electrojet (AE) Index} % (AE explained)
-\label{sub:AE index}
+\label{sub:AE_index}
 Using the AE index we can observe substorms. The AE index measures the strenght of the auroral current systems. These current are at low altitudes(near 100 km) and high latitudes (near 70$^\circ$). There are 12 stations that measure this. The AE is comprised of AU(upper envelope, eastward auroral electrojet) and AL(lower envelope, westward auroral electrojet), so AE = AU-AL which gives us the overall activity of the electrojets
 % subsubsection AE index (end)
+
+\subsubsection{Kp index} % (fold)
+\label{sub:Kp_index}
+I'l write about the KP index a little later
+% subsection Kp index (end)
 
 % subsection indices (end)
 
@@ -238,13 +243,100 @@ Here we have 2 keograms from the sixth of january 2011. The 2 keograms depict th
 \caption{Keograms showing development of aurora over Ny Ålesund the sixth of february 2011. Source: http://tid.uio.no/plasma/aurora/}
 \end{figure}
  
+
+\subsection{ACE data} % (All data and observations from ACE)
+\label{sub:ACE_data}
+
+
+
+\begin{figure}[H]
+\includegraphics[scale=0.6]{Figures/ACEmagfield2011_01_06.png}
+\centering
+\caption{Data from the MAG instrument showing the magnetic field in GSM coordinates and the magnitude. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+\label{fig:ACEmag}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6]{Figures/ACE_H_Density.png}
+\centering
+\caption{Data from SWEPAM showing the solar wind proton number density. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+\label{fig:ACE_H_Density}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6]{Figures/ACE_H_Temp_radial.png}
+\centering
+\caption{Data from SWEPAM showing the radial component of the proton temperature. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+\label{fig:ACE_temp}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6]{Figures/ACE_Na_Np.png}
+\centering
+\caption{Data from SWEPAM showing the alpha to proton density ration. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+\label{fig:ACE_na_np}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6]{Figures/ACE_SE_velocityGSM.png}
+\centering
+\caption{Data from SWEPAM showing the solar wind velocity in GSM coordinates. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+\label{fig:SWvelGSM}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6]{Figures/ACE_SW_H_Speed.png}
+\centering
+\caption{Data from SWEPAM showing the solar wind bulk speed. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+\label{fig:ACE_bulk}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6]{Figures/ACE_positionGSM.png}
+\centering
+\caption{Data from SWEPAM showing the satellite position in GSM coordinates. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+\label{fig:ACE_pos}
+\end{figure}
+
+% subsection ace_data (end)
+
+
+\subsection{Dst data} % (fold)
+\label{sub:dst_data}
+
+\begin{figure}[H]
+\includegraphics[scale=0.4]{Figures/dst1101.png}
+\includegraphics[scale=0.4]{Figures/dst_january.png}
+\centering
+\caption{The Dst index of January 2011, with values for the 1st to the 10th. source: \url{http://wdc.kugi.kyoto-u.ac.jp/dst_final/201101/index.html}}
+\end{figure}
+
+% subsection dst_data (end)
+
+\subsection{AE Index data} % (fold)
+\label{sub:AE_index_data}
+
+\begin{figure}[H]
+\includegraphics[scale=0.4]{Figures/pvae_2011_01_06.png}
+\centering
+\caption{The Provisional AE index of January 6. 2011. Source: \url{http://wdc.kugi.kyoto-u.ac.jp/ae_provisional/201101/index_20110106.html}}
+\end{figure}
+
+% subsection AE_index_data (end)
+
+\subsection{Kp Index} % (fold)
+\label{sub:kp_index}
+
+% subsection kp_index (end)
+ 
 % section observations (end)
 
 
 \section{Discussion} % (Discussion of the results we got with respect to the observations)
 \label{sec:discussion}
+First we will begin with analysis of the ACE data. From the MAG instrument, the thing of interest is the IMF Bz componenet of the magnetic field. From midnigt to about 17 the Bz is fluctuating slowly and calmly around 0 nT. After 17 and until 20 the Bz becomes more erratic, with bigger movements. At around 20, there is a sudden jump in Bz up to around 10 nT, after which it plummets to about $- 15 nT$. What follows is a negative Bz almost all the way to midnight, except for a positive spike a little after 21.
 
-We got a bunch of shit here
+
 % section discussion (end)
 
 \section{Conclusion} % (Conclusion of the discussion and project)

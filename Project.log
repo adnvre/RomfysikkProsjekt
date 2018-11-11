@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.24)  10 NOV 2018 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.24)  11 NOV 2018 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -619,7 +619,7 @@ LaTeX Font Info:    Try loading font information for OT1+zplm on input line 54.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-<Figures/uiosegl.png, id=76, 142.3719pt x 142.3719pt>
+<Figures/uiosegl.png, id=108, 142.3719pt x 142.3719pt>
 File: Figures/uiosegl.png Graphic file (type png)
 
 <use Figures/uiosegl.png>
@@ -643,10 +643,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
-[2]
+[2] [3]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 77.
- <Figures/artistic_imf.png, id=109, 524.55975pt x 413.1435pt>
+ <Figures/artistic_imf.png, id=153, 524.55975pt x 413.1435pt>
 File: Figures/artistic_imf.png Graphic file (type png)
 
 <use Figures/artistic_imf.png>
@@ -657,7 +657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--90
 
  []
 
-<Figures/artistic_cme.png, id=111, 273.4215pt x 237.2865pt>
+<Figures/artistic_cme.png, id=155, 273.4215pt x 237.2865pt>
 File: Figures/artistic_cme.png Graphic file (type png)
 
 <use Figures/artistic_cme.png>
@@ -674,23 +674,23 @@ Overfull \hbox (2.22165pt too wide) in paragraph at lines 92--105
 ounts of plasma
  []
 
-[3 <./Figures/artistic_imf.png>] [4 <./Figures/artistic_cme.png>]
-<Figures/magnetosphere.png, id=123, 623.32875pt x 343.88475pt>
+[4 <./Figures/artistic_imf.png>] [5 <./Figures/artistic_cme.png>]
+<Figures/magnetosphere.png, id=168, 623.32875pt x 343.88475pt>
 File: Figures/magnetosphere.png Graphic file (type png)
 
 <use Figures/magnetosphere.png>
 Package pdftex.def Info: Figures/magnetosphere.png used on input line 111.
 (pdftex.def)             Requested size: 311.6636pt x 171.94196pt.
 
-<Figures/Dungey_cycle_negative.png, id=125, 698.61pt x 417.35925pt>
+<Figures/Dungey_cycle_negative.png, id=170, 698.61pt x 417.35925pt>
 File: Figures/Dungey_cycle_negative.png Graphic file (type png)
 
 <use Figures/Dungey_cycle_negative.png>
 Package pdftex.def Info: Figures/Dungey_cycle_negative.png used on input line 1
 24.
 (pdftex.def)             Requested size: 349.30414pt x 208.67911pt.
- [5 <./Figures/magnetosphere.png>]
-<Figures/ionosphere_currents.png, id=131, 632.3625pt x 276.43275pt>
+ [6 <./Figures/magnetosphere.png>]
+<Figures/ionosphere_currents.png, id=176, 632.3625pt x 276.43275pt>
 File: Figures/ionosphere_currents.png Graphic file (type png)
 
 <use Figures/ionosphere_currents.png>
@@ -702,12 +702,12 @@ Overfull \hbox (82.65074pt too wide) in paragraph at lines 134--136
  [][] 
  []
 
-[6 <./Figures/Dungey_cycle_negative.png>]
+[7 <./Figures/Dungey_cycle_negative.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 140--146
 
  []
 
-<Figures/magnetometer_map.pdf, id=140, 597.23125pt x 845.1575pt>
+<Figures/magnetometer_map.pdf, id=186, 597.23125pt x 845.1575pt>
 File: Figures/magnetometer_map.pdf Graphic file (type pdf)
 
 <use Figures/magnetometer_map.pdf>
@@ -723,108 +723,234 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--164
 
  []
 
-[7 <./Figures/ionosphere_currents.png>] [8 <./Figures/magnetometer_map.pdf>]
-[9] <Figures/X_gram.jpg, id=162, 132.495pt x 186.44656pt>
+[8 <./Figures/ionosphere_currents.png>] [9 <./Figures/magnetometer_map.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+[10] <Figures/X_gram.jpg, id=206, 132.495pt x 186.44656pt>
 File: Figures/X_gram.jpg Graphic file (type jpg)
 
 <use Figures/X_gram.jpg>
-Package pdftex.def Info: Figures/X_gram.jpg used on input line 195.
+Package pdftex.def Info: Figures/X_gram.jpg used on input line 215.
 (pdftex.def)             Requested size: 119.24438pt x 167.80034pt.
- <Figures/Y_gram.jpg, id=163, 132.495pt x 186.44656pt>
+ <Figures/Y_gram.jpg, id=207, 132.495pt x 186.44656pt>
 File: Figures/Y_gram.jpg Graphic file (type jpg)
 
 <use Figures/Y_gram.jpg>
-Package pdftex.def Info: Figures/Y_gram.jpg used on input line 196.
+Package pdftex.def Info: Figures/Y_gram.jpg used on input line 216.
 (pdftex.def)             Requested size: 119.24438pt x 167.80034pt.
- <Figures/Z_gram.jpg, id=164, 132.495pt x 186.44656pt>
+ <Figures/Z_gram.jpg, id=208, 132.495pt x 186.44656pt>
 File: Figures/Z_gram.jpg Graphic file (type jpg)
 
 <use Figures/Z_gram.jpg>
-Package pdftex.def Info: Figures/Z_gram.jpg used on input line 197.
+Package pdftex.def Info: Figures/Z_gram.jpg used on input line 217.
 (pdftex.def)             Requested size: 119.24438pt x 167.80034pt.
- [10 <./Figures/X_gram.jpg> <./Figures/Y_gram.jpg> <./Figures/Z_gram.jpg>]
-<Figures/Superdarn/superdarn_21_30.jpg, id=172, 163.812pt x 162.3666pt>
+ [11]
+<Figures/Superdarn/superdarn_21_30.jpg, id=215, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_21_30.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_21_30.jpg>
 Package pdftex.def Info: Figures/Superdarn/superdarn_21_30.jpg used on input li
-ne 207.
+ne 227.
 (pdftex.def)             Requested size: 163.81158pt x 162.3662pt.
 
-<Figures/Superdarn/superdarn_21_52.jpg, id=173, 163.812pt x 162.3666pt>
+<Figures/Superdarn/superdarn_21_52.jpg, id=216, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_21_52.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_21_52.jpg>
 Package pdftex.def Info: Figures/Superdarn/superdarn_21_52.jpg used on input li
-ne 208.
+ne 228.
 (pdftex.def)             Requested size: 163.81158pt x 162.3662pt.
 
-<Figures/Superdarn/superdarn_22_32.jpg, id=174, 163.812pt x 162.3666pt>
+<Figures/Superdarn/superdarn_22_32.jpg, id=217, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_22_32.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_22_32.jpg>
 Package pdftex.def Info: Figures/Superdarn/superdarn_22_32.jpg used on input li
-ne 209.
+ne 229.
 (pdftex.def)             Requested size: 163.81158pt x 162.3662pt.
 
-<Figures/Superdarn/superdarn_23_52.jpg, id=175, 163.812pt x 162.3666pt>
+<Figures/Superdarn/superdarn_23_52.jpg, id=218, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_23_52.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_23_52.jpg>
 Package pdftex.def Info: Figures/Superdarn/superdarn_23_52.jpg used on input li
-ne 210.
+ne 230.
 (pdftex.def)             Requested size: 163.81158pt x 162.3662pt.
-
-<Figures/nya4_20110106_0000-2400_5577.png, id=176, 1606.0pt x 1003.75pt>
+ [12 <./Figures/X_gram.jpg> <./Figures/Y_gram.jpg> <./Figures/Z_gram.jpg>]
+<Figures/nya4_20110106_0000-2400_5577.png, id=224, 1606.0pt x 1003.75pt>
 File: Figures/nya4_20110106_0000-2400_5577.png Graphic file (type png)
 
 <use Figures/nya4_20110106_0000-2400_5577.png>
 Package pdftex.def Info: Figures/nya4_20110106_0000-2400_5577.png used on input
- line 220.
+ line 240.
 (pdftex.def)             Requested size: 321.19432pt x 200.74644pt.
 
-<Figures/nya4_20110106_0000-2400_6300.png, id=177, 1606.0pt x 1003.75pt>
+<Figures/nya4_20110106_0000-2400_6300.png, id=225, 1606.0pt x 1003.75pt>
 File: Figures/nya4_20110106_0000-2400_6300.png Graphic file (type png)
 
 <use Figures/nya4_20110106_0000-2400_6300.png>
 Package pdftex.def Info: Figures/nya4_20110106_0000-2400_6300.png used on input
- line 221.
+ line 241.
 (pdftex.def)             Requested size: 321.19432pt x 200.74644pt.
- [11 <./Figures/Superdarn/superdarn_21_30.jpg> <./Figures/Superdarn/superdarn_2
+ [13 <./Figures/Superdarn/superdarn_21_30.jpg> <./Figures/Superdarn/superdarn_2
 1_52.jpg> <./Figures/Superdarn/superdarn_22_32.jpg> <./Figures/Superdarn/superd
 arn_23_52.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
- [12 <./Figures/nya4_20110106_0000-2400_5577.png> <./Figures/nya4_20110106_0000
--2400_6300.png>]
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+<Figures/ACEmagfield2011_01_06.png, id=232, 642.4pt x 542.025pt>
+File: Figures/ACEmagfield2011_01_06.png Graphic file (type png)
+
+<use Figures/ACEmagfield2011_01_06.png>
+Package pdftex.def Info: Figures/ACEmagfield2011_01_06.png used on input line 2
+53.
+(pdftex.def)             Requested size: 385.44298pt x 325.2175pt.
+
+Overfull \hbox (25.44298pt too wide) in paragraph at lines 253--255
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 255.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [14 <./Figures/nya4_20110106_0000-2400_5577.png> <./Figures/nya4_20110106_000
+0-2400_6300.png>]
+<Figures/ACE_H_Density.png, id=240, 642.4pt x 240.9pt>
+File: Figures/ACE_H_Density.png Graphic file (type png)
+
+<use Figures/ACE_H_Density.png>
+Package pdftex.def Info: Figures/ACE_H_Density.png used on input line 260.
+(pdftex.def)             Requested size: 385.44298pt x 144.5411pt.
+
+Overfull \hbox (25.44298pt too wide) in paragraph at lines 260--262
+ [][] 
+ []
+
+[15 <./Figures/ACEmagfield2011_01_06.png>]
+<Figures/ACE_H_Temp_radial.png, id=251, 642.4pt x 240.9pt>
+File: Figures/ACE_H_Temp_radial.png Graphic file (type png)
+
+<use Figures/ACE_H_Temp_radial.png>
+Package pdftex.def Info: Figures/ACE_H_Temp_radial.png used on input line 267.
+(pdftex.def)             Requested size: 385.44298pt x 144.5411pt.
+
+Overfull \hbox (25.44298pt too wide) in paragraph at lines 267--269
+ [][] 
+ []
+
+<Figures/ACE_Na_Np.png, id=254, 642.4pt x 240.9pt>
+File: Figures/ACE_Na_Np.png Graphic file (type png)
+ <use Figures/ACE_Na_Np.png>
+Package pdftex.def Info: Figures/ACE_Na_Np.png used on input line 274.
+(pdftex.def)             Requested size: 385.44298pt x 144.5411pt.
+
+Overfull \hbox (25.44298pt too wide) in paragraph at lines 274--276
+ [][] 
+ []
+
+[16 <./Figures/ACE_H_Density.png> <./Figures/ACE_H_Temp_radial.png>]
+<Figures/ACE_SE_velocityGSM.png, id=266, 642.4pt x 441.65pt>
+File: Figures/ACE_SE_velocityGSM.png Graphic file (type png)
+
+<use Figures/ACE_SE_velocityGSM.png>
+Package pdftex.def Info: Figures/ACE_SE_velocityGSM.png used on input line 281.
+
+(pdftex.def)             Requested size: 385.44298pt x 264.99203pt.
+
+Overfull \hbox (25.44298pt too wide) in paragraph at lines 281--283
+ [][] 
+ []
+
+<Figures/ACE_SW_H_Speed.png, id=269, 642.4pt x 240.9pt>
+File: Figures/ACE_SW_H_Speed.png Graphic file (type png)
+
+<use Figures/ACE_SW_H_Speed.png>
+Package pdftex.def Info: Figures/ACE_SW_H_Speed.png used on input line 288.
+(pdftex.def)             Requested size: 385.44298pt x 144.5411pt.
+
+Overfull \hbox (25.44298pt too wide) in paragraph at lines 288--290
+ [][] 
+ []
+
+[17 <./Figures/ACE_Na_Np.png> <./Figures/ACE_SE_velocityGSM.png>]
+<Figures/ACE_positionGSM.png, id=280, 642.4pt x 441.65pt>
+File: Figures/ACE_positionGSM.png Graphic file (type png)
+
+<use Figures/ACE_positionGSM.png>
+Package pdftex.def Info: Figures/ACE_positionGSM.png used on input line 295.
+(pdftex.def)             Requested size: 385.44298pt x 264.99203pt.
+
+Overfull \hbox (25.44298pt too wide) in paragraph at lines 295--297
+ [][] 
+ []
+
+<Figures/dst1101.png, id=283, 742.775pt x 225.84375pt>
+File: Figures/dst1101.png Graphic file (type png)
+
+<use Figures/dst1101.png>
+Package pdftex.def Info: Figures/dst1101.png used on input line 308.
+(pdftex.def)             Requested size: 297.10474pt x 90.33589pt.
+
+<Figures/dst_january.png, id=284, 809.0225pt x 224.84pt>
+File: Figures/dst_january.png Graphic file (type png)
+
+<use Figures/dst_january.png>
+Package pdftex.def Info: Figures/dst_january.png used on input line 309.
+(pdftex.def)             Requested size: 323.60327pt x 89.9344pt.
+ [18 <./Figures/ACE_SW_H_Speed.png> <./Figures/ACE_positionGSM.png>]
+<Figures/pvae_2011_01_06.png, id=295, 702.625pt x 451.6875pt>
+File: Figures/pvae_2011_01_06.png Graphic file (type png)
+
+<use Figures/pvae_2011_01_06.png>
+Package pdftex.def Info: Figures/pvae_2011_01_06.png used on input line 320.
+(pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
+
+Underfull \hbox (badness 1062) in paragraph at lines 322--322
+[]\T1/ppl/m/n/10.95 Figure 18: []The Pro-vi-sional AE in-dex of Jan-uary 6. 201
+1. Source:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]$\T1/cmtt/m/n/10.95 http : / / wdc . kugi . kyoto-[]u . ac . jp / ae _ provis
+ional / 201101 / index _
+ []
+
+[19 <./Figures/dst1101.png (PNG copy)> <./Figures/dst_january.png> <./Figures/p
+vae_2011_01_06.png (PNG copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./Project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `Project.out' has not changed.
-(rerunfilecheck)             Checksum: 8B5821BE17B7B1B2CFBE008D770AE218;1137.
+(rerunfilecheck)             Checksum: EC783F6FDC7BAFBDA57CB98D2A4242B4;1680.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 8282 strings out of 493089
- 118014 string characters out of 6134842
- 230520 words of memory out of 5000000
- 11597 multiletter control sequences out of 15000+600000
- 26643 words of font info for 61 fonts, out of 8000000 for 9000
+ 8404 strings out of 493089
+ 120674 string characters out of 6134842
+ 231520 words of memory out of 5000000
+ 11675 multiletter control sequences out of 15000+600000
+ 29415 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,40p,754b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on Project.pdf (13 pages, 2357250 bytes).
+ 29i,8n,40p,757b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Project.pdf (20 pages, 2565274 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 
