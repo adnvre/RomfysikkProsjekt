@@ -21,6 +21,6 @@
 \contentsline {subsection}{\numberline {3.6}AE Index data}{9}{subsection.3.6}
 \contentsline {subsection}{\numberline {3.7}Kp Index}{9}{subsection.3.7}
 \contentsline {section}{\numberline {4}Discussion}{9}{section.4}
-\contentsline {section}{\numberline {5}Conclusion}{9}{section.5}
-\contentsline {section}{\numberline {6}Appendix}{9}{section.6}
-\contentsline {section}{\numberline {7}Refrences and acknowledgements}{9}{section.7}
+\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}
+\contentsline {section}{\numberline {6}Appendix}{10}{section.6}
+\contentsline {section}{\numberline {7}Refrences and acknowledgements}{10}{section.7}
