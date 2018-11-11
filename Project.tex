@@ -10,10 +10,12 @@
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage{multicol}
 
 
 
 \setlength{\parindent}{0em}
+\setlength{\columnsep}{22pt}
 
 \definecolor{background}{gray}{0.9}
 \definecolor{comment}{rgb}{0.6,0.4,0.8}
@@ -45,6 +47,13 @@
 	}
 
 
+\addtolength{\oddsidemargin}{-3cm}
+\addtolength{\textwidth}{6cm}
+
+\addtolength{\topmargin}{-3cm}
+\addtolength{\textheight}{5cm}
+
+
 \title{Project Fys3600}
 \author{Candidate numbers: 1. \& 14.}
 \date{\today}
@@ -64,6 +73,11 @@
 
 \tableofcontents
 
+\begin{multicols}{2}
+
+
+\newpage
+
 \section{Introduction} % (Introduction to project and theoretical background)
 \label{sec:intro}
 	As society moves towards more automatization, accurate, globally available navigational tools are coming in demand. A solution to this is using satellites. 			There are some problems however. Satellites (and in some cases even earthbound equipment) are susceptible to bad space weather. Having your self-			driving car suddenly acting up is not desirable. Predicting when equipment will be in danger of getting hit by high energy particles is therefore of interest.\\ 
@@ -73,7 +87,7 @@
 
 
 
-\newpage
+
 \subsection{Theory} % (The theoretical part of the intro)
 \label{sub:theory}
 	\subsubsection{The Sun:} 
@@ -104,13 +118,12 @@
 			\label{fig::cme}
 		\end{figure}
 
-\newpage
 	\subsubsection{The Magnetosphere:}
 		Like the sun, the earth also has a magnetic field.
 		\begin{figure}[H]
-			\includegraphics[scale = 0.5]{Figures/magnetosphere.png}
+			\includegraphics[scale = 0.4]{Figures/magnetosphere.png}
 			\centering
-			\caption{The earths magnetosphere. Note that it looks a bit different when the IMF Z component has the same sign as earths (in the figure, they 						     are opposite).}
+			\caption{The earths magnetosphere. Note that it looks a bit different when the IMF Z component has the same sign as earths (in the figure, they are opposite).}
 			\label{fig::magnetopause}
 		\end{figure}
 	
@@ -121,20 +134,19 @@
 	When the Z (north/south) direction of the IMF and earths magnetic field points in opposite directions, field lines from earth and field lines from the IMF can 			break and recouple with eachother. This phenomenon is known as magnetic reconnection.\\
 	When magnetic reconnection happens, the field lines "wrap around the earth" in an attempt to regain equilibrium. We can divide this process into different 			stages of what we call the Dungey cycle.
 	\begin{figure}[H]
-		\includegraphics[scale = 0.5]{Figures/Dungey_cycle_negative.png}
+		\includegraphics[scale = 0.3]{Figures/Dungey_cycle_negative.png}
 		\centering
-		\caption{A figure explaining the Dungey cycle. The numbers indicate the stages of the cycle. The field lines start off with a reconnection on the day-						side, then proceeds to wrap around to the night side. We then get another reconnection at 6, and the field lines settle down. }
-		\label{fig::dungey_cycle}
+		\caption{A figure explaining the Dungey cycle. The numbers indicate the stages of the cycle. The field lines start off with a reconnection on the day-side, then proceeds to wrap around to the night side. We then get another reconnection at 6, and the field lines settle down. }
+		\label{fig:dungey_cycle}
 	\end{figure}
 
 	\subsubsection{Ionospheric currents}
 	The Dungey cycle is important, as magnetic reconnection is the main perpetrator in accelerating plasma into the polar cusps.\\
 	There are several plasma currents in the ionosphere ($\approx$ 75-1000km above sea level).
 	\begin{figure}[H]
-		\includegraphics[scale = 0.7]{Figures/ionosphere_currents.png}
+		\includegraphics[scale = 0.4]{Figures/ionosphere_currents.png}
 		\centering
-		\caption{Some ionospheric currents. Here we see the Birkeland currents stretching out from the polar cusp, the Pedersen current going from dawn to 						dusk and Hall-currents going from day to night, and back around the cusp. The numbers indicate magnetic local time, with 12 being dayside 			and 06 being dawn.}
-
+		\caption{Some ionospheric currents. Here we see the Birkeland currents stretching out from the polar cusp, the Pedersen current going from dawn to dusk and Hall-currents going from day to night, and back around the cusp. The numbers indicate magnetic local time, with 12 being dayside 			and 06 being dawn.}
 		\label{fig::ionosphere}
 	\end{figure}
 	One of these is the Birkeland currents which bring plasma in and out of the polar cusps. The cause of this is the interaction between the magnetosphere and 	the IMF.\\
@@ -142,25 +154,20 @@
 	Since the Pedersen current includes a divition in charge, we also end up with an E field. This, along with the B field lines that point towards the polar cusp 			introduces another current through E $\times$ B drift: the Hall-current which is depicted in green in figure \ref{fig::ionosphere}.\\
 	Along with these current systems, we can also observe 630 nm (red) and 557 nm (green) light from the lower ionosphere as charged particles hit and 			excite oxygen. This is the phenomenon known as aurora borealis; the northern lights.\\
 	\\
-	Since all these phenomenon are caused by interactions in the magnetosphere, we can use them to say something about the IMF and the other way around. 
-	
-
-
+	Since all these phenomenon are caused by interactions in the magnetosphere, we can use them to say something about the IMF and the other way around. 	
 % subsection theory (end)
-
 % section introduction (end)
 
 
 \section{instruments} % (description of the instrumenst used in this project)
 \label{sec:instruments}
-
 \subsection{Ground based magnetometer; IMAGE}
 Knowing the B field at ground level is of interest. Luckily for us, there is a network of groundbased magnetometers known as the International Monitor for Auroral Geomagnetic Effects; IMAGE.\\
 \begin{figure}[H]
-\includegraphics[scale = 0.5]{Figures/magnetometer_map.pdf}
-\centering
-\caption{A map showing the IMAGE stations. Source: http://space.fmi.fi/image/www/index.php?page=maps}
-\label{fig::image_map}
+	\includegraphics[scale = 0.4]{Figures/magnetometer_map.pdf}
+	\centering
+	\caption{A map showing the IMAGE stations. Source: \url{http://space.fmi.fi/image/www/index.php?page=maps}}
+	\label{fig::image_map}
 \end{figure}
 
 When charged particles start flowing in the ionosphere, it creates a B field in accordance with Ampere's law. For example, if we have a dawn-dusk current inside the polar circle, we can notice it by measuring the B field perpendicular to it.\\
@@ -212,35 +219,36 @@ I'l write about the KP index a little later
 \subsection{IMAGE data}
 Here is the IMAGE data from the sixth of january 2011. As we can see, things are relatively quiet until around 10 pm. 
 \begin{figure}[H]
-\includegraphics[scale = 0.9]{Figures/X_gram.jpg}
-\includegraphics[scale = 0.9]{Figures/Y_gram.jpg}
-\includegraphics[scale = 0.9]{Figures/Z_gram.jpg}
-\centering
-\caption{IMAGE data. The letters on the side refer to stations seen in figure \ref{fig::image_map}. Source: http://space.fmi.fi/image/www/index.php?page=home }
-\label{fig::image_data}
+	\includegraphics[scale = 0.9]{Figures/X_gram.jpg}
+	\includegraphics[scale = 0.9]{Figures/Y_gram.jpg}
+	\includegraphics[scale = 0.9]{Figures/Z_gram.jpg}
+	\centering
+	\caption{IMAGE data. The letters on the side refer to stations seen in figure \ref{fig::image_map}. Source: \url{http://space.fmi.fi/image/www/index.php?page=home}}
+	\label{fig:image_data}
 \end{figure}
 
 \subsection{SuperDARN data}
 Here is some of the data from SuperDARN for the sixth of january 2011. We have chosen to include data for times that indicate the development of the ionospheric currents over time. 
 
 \begin{figure}[H]
-\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_21_30.jpg}
-\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_21_52.jpg}
-\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_22_32.jpg}
-\includegraphics[scale = 1.0]{Figures/Superdarn/superdarn_23_52.jpg}
-\centering
-\caption{Convection maps derived from SuperDARN data. The vector arrows indicate measured data, while the streamlines indicate derived plasma flow. Source: http://vt.superdarn.org/tiki-index.php}
-\label{fig::superdarn_data}
+	\includegraphics[scale = 0.9]{Figures/Superdarn/superdarn_21_30.jpg}
+	\includegraphics[scale = 0.9]{Figures/Superdarn/superdarn_21_52.jpg}
+	\includegraphics[scale = 0.9]{Figures/Superdarn/superdarn_22_32.jpg}
+	\includegraphics[scale = 0.9]{Figures/Superdarn/superdarn_23_52.jpg}
+	\centering
+	\caption{Convection maps derived from SuperDARN data. The vector arrows indicate measured data, while the streamlines indicate derived plasma flow. Source: \url{http://vt.superdarn.org/tiki-index.php}}
+	\label{fig:superdarn_data}
 \end{figure}
 
 \subsection{All-sky Camera data}
 Here we have 2 keograms from the sixth of january 2011. The 2 keograms depict the development of auroras over time by measuring the intensity of 557 nm and 630 nm light.
 
 \begin{figure}[H]
-\includegraphics[scale = 0.2]{Figures/nya4_20110106_0000-2400_5577.png}
-\includegraphics[scale = 0.2]{Figures/nya4_20110106_0000-2400_6300.png}
-\centering
-\caption{Keograms showing development of aurora over Ny Ålesund the sixth of february 2011. Source: http://tid.uio.no/plasma/aurora/}
+	\includegraphics[scale = 0.17]{Figures/nya4_20110106_0000-2400_5577.png}
+	\includegraphics[scale = 0.17]{Figures/nya4_20110106_0000-2400_6300.png}
+	\centering
+	\caption{Keograms showing development of aurora over Ny Ålesund the sixth of february 2011. Source: \url{http://tid.uio.no/plasma/aurora/}}
+	\label{fig:keogram}
 \end{figure}
  
 
@@ -250,52 +258,52 @@ Here we have 2 keograms from the sixth of january 2011. The 2 keograms depict th
 
 
 \begin{figure}[H]
-\includegraphics[scale=0.6]{Figures/ACEmagfield2011_01_06.png}
-\centering
-\caption{Data from the MAG instrument showing the magnetic field in GSM coordinates and the magnitude. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
-\label{fig:ACEmag}
+	\includegraphics[scale=0.4]{Figures/ACEmagfield2011_01_06.png}
+	\centering
+	\caption{Data from the MAG instrument showing the magnetic field in GSM coordinates and the magnitude. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+	\label{fig:ACEmag}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.6]{Figures/ACE_H_Density.png}
-\centering
-\caption{Data from SWEPAM showing the solar wind proton number density. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
-\label{fig:ACE_H_Density}
+	\includegraphics[scale=0.4]{Figures/ACE_H_Density.png}
+	\centering
+	\caption{Data from SWEPAM showing the solar wind proton number density. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+	\label{fig:ACE_H_Density}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.6]{Figures/ACE_H_Temp_radial.png}
-\centering
-\caption{Data from SWEPAM showing the radial component of the proton temperature. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
-\label{fig:ACE_temp}
+	\includegraphics[scale=0.4]{Figures/ACE_H_Temp_radial.png}
+	\centering
+	\caption{Data from SWEPAM showing the radial component of the proton temperature. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+	\label{fig:ACE_temp}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.6]{Figures/ACE_Na_Np.png}
-\centering
-\caption{Data from SWEPAM showing the alpha to proton density ration. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
-\label{fig:ACE_na_np}
+	\includegraphics[scale=0.4]{Figures/ACE_Na_Np.png}
+	\centering
+	\caption{Data from SWEPAM showing the alpha to proton density ration. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+	\label{fig:ACE_na_np}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.6]{Figures/ACE_SE_velocityGSM.png}
-\centering
-\caption{Data from SWEPAM showing the solar wind velocity in GSM coordinates. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
-\label{fig:SWvelGSM}
+	\includegraphics[scale=0.4]{Figures/ACE_SE_velocityGSM.png}
+	\centering
+	\caption{Data from SWEPAM showing the solar wind velocity in GSM coordinates. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+	\label{fig:SWvelGSM}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.6]{Figures/ACE_SW_H_Speed.png}
-\centering
-\caption{Data from SWEPAM showing the solar wind bulk speed. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
-\label{fig:ACE_bulk}
+	\includegraphics[scale=0.4]{Figures/ACE_SW_H_Speed.png}
+	\centering
+	\caption{Data from SWEPAM showing the solar wind bulk speed. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+	\label{fig:ACE_bulk}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.6]{Figures/ACE_positionGSM.png}
-\centering
-\caption{Data from SWEPAM showing the satellite position in GSM coordinates. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
-\label{fig:ACE_pos}
+	\includegraphics[scale=0.4]{Figures/ACE_positionGSM.png}
+	\centering
+	\caption{Data from SWEPAM showing the satellite position in GSM coordinates. Source: \url{http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/}}
+	\label{fig:ACE_pos}
 \end{figure}
 
 % subsection ace_data (end)
@@ -305,10 +313,11 @@ Here we have 2 keograms from the sixth of january 2011. The 2 keograms depict th
 \label{sub:dst_data}
 
 \begin{figure}[H]
-\includegraphics[scale=0.4]{Figures/dst1101.png}
-\includegraphics[scale=0.4]{Figures/dst_january.png}
-\centering
-\caption{The Dst index of January 2011, with values for the 1st to the 10th. source: \url{http://wdc.kugi.kyoto-u.ac.jp/dst_final/201101/index.html}}
+	\includegraphics[scale=0.3]{Figures/dst1101.png}
+	\includegraphics[scale=0.3]{Figures/dst_january.png}
+	\centering
+	\caption{The Dst index of January 2011, with values for the 1st to the 10th. source: \url{http://wdc.kugi.kyoto-u.ac.jp/dst_final/201101/index.html}}
+	\label{fig:Dst}
 \end{figure}
 
 % subsection dst_data (end)
@@ -317,9 +326,10 @@ Here we have 2 keograms from the sixth of january 2011. The 2 keograms depict th
 \label{sub:AE_index_data}
 
 \begin{figure}[H]
-\includegraphics[scale=0.4]{Figures/pvae_2011_01_06.png}
-\centering
-\caption{The Provisional AE index of January 6. 2011. Source: \url{http://wdc.kugi.kyoto-u.ac.jp/ae_provisional/201101/index_20110106.html}}
+	\includegraphics[scale=0.4]{Figures/pvae_2011_01_06.png}
+	\centering
+	\caption{The Provisional AE index of January 6. 2011. Source: \url{http://wdc.kugi.kyoto-u.ac.jp/ae_provisional/201101/index_20110106.html}}
+	\label{fig:AE}
 \end{figure}
 
 % subsection AE_index_data (end)
@@ -356,4 +366,11 @@ Conclude some shit!
 \label{sec:refrences_and_acknowledgements}
 
 % section refrences_and_acknowledgements (end)
+
+
+
+
+
+\end{multicols}
+
 \end{document}
