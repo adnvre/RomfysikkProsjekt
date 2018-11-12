@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.24)  12 NOV 2018 01:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.24)  12 NOV 2018 04:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -698,10 +698,10 @@ Package pdftex.def Info: Figures/uiosegl.png used on input line 66.
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figur
 es/uiosegl.png>]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 74.
  (./Project.toc
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 )
 \tf@toc=\write4
@@ -712,7 +712,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 91.
 <Figures/artistic_imf.png, id=143, 524.55975pt x 413.1435pt>
 File: Figures/artistic_imf.png Graphic file (type png)
@@ -781,6 +781,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--171
  []
 
 [4 <./Figures/Dungey_cycle_negative.png> <./Figures/ionosphere_currents.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]\T1/ppl/b/n/14.4 Advanced Com-po-si-tion Ex-plorer
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
@@ -810,9 +815,8 @@ File: Figures/Z_gram.jpg Graphic file (type jpg)
 Package pdftex.def Info: Figures/Z_gram.jpg used on input line 231.
 (pdftex.def)             Requested size: 119.24438pt x 167.80034pt.
 
-[6 <./Figures/ace_exploded.png> <./Figures/X_gram.jpg> <./Figures/Y_gram.jpg> <
-./Figures/Z_gram.jpg>]
-<Figures/Superdarn/superdarn_21_30.jpg, id=210, 163.812pt x 162.3666pt>
+[6 <./Figures/ace_exploded.png>]
+<Figures/Superdarn/superdarn_21_30.jpg, id=208, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_21_30.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_21_30.jpg>
@@ -820,7 +824,7 @@ Package pdftex.def Info: Figures/Superdarn/superdarn_21_30.jpg used on input li
 ne 241.
 (pdftex.def)             Requested size: 147.42941pt x 146.12857pt.
 
-<Figures/Superdarn/superdarn_21_52.jpg, id=211, 163.812pt x 162.3666pt>
+<Figures/Superdarn/superdarn_21_52.jpg, id=209, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_21_52.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_21_52.jpg>
@@ -828,7 +832,7 @@ Package pdftex.def Info: Figures/Superdarn/superdarn_21_52.jpg used on input li
 ne 242.
 (pdftex.def)             Requested size: 147.42941pt x 146.12857pt.
 
-<Figures/Superdarn/superdarn_22_32.jpg, id=212, 163.812pt x 162.3666pt>
+<Figures/Superdarn/superdarn_22_32.jpg, id=210, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_22_32.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_22_32.jpg>
@@ -836,7 +840,7 @@ Package pdftex.def Info: Figures/Superdarn/superdarn_22_32.jpg used on input li
 ne 243.
 (pdftex.def)             Requested size: 147.42941pt x 146.12857pt.
 
-<Figures/Superdarn/superdarn_23_52.jpg, id=213, 163.812pt x 162.3666pt>
+<Figures/Superdarn/superdarn_23_52.jpg, id=211, 163.812pt x 162.3666pt>
 File: Figures/Superdarn/superdarn_23_52.jpg Graphic file (type jpg)
 
 <use Figures/Superdarn/superdarn_23_52.jpg>
@@ -844,7 +848,7 @@ Package pdftex.def Info: Figures/Superdarn/superdarn_23_52.jpg used on input li
 ne 244.
 (pdftex.def)             Requested size: 147.42941pt x 146.12857pt.
 
-<Figures/nya4_20110106_0000-2400_5577.png, id=216, 1606.0pt x 1003.75pt>
+<Figures/nya4_20110106_0000-2400_5577.png, id=214, 1606.0pt x 1003.75pt>
 File: Figures/nya4_20110106_0000-2400_5577.png Graphic file (type png)
 
 <use Figures/nya4_20110106_0000-2400_5577.png>
@@ -852,7 +856,7 @@ Package pdftex.def Info: Figures/nya4_20110106_0000-2400_5577.png used on input
  line 254.
 (pdftex.def)             Requested size: 273.01639pt x 170.63524pt.
 
-<Figures/nya4_20110106_0000-2400_6300.png, id=217, 1606.0pt x 1003.75pt>
+<Figures/nya4_20110106_0000-2400_6300.png, id=215, 1606.0pt x 1003.75pt>
 File: Figures/nya4_20110106_0000-2400_6300.png Graphic file (type png)
 
 <use Figures/nya4_20110106_0000-2400_6300.png>
@@ -860,16 +864,19 @@ Package pdftex.def Info: Figures/nya4_20110106_0000-2400_6300.png used on input
  line 255.
 (pdftex.def)             Requested size: 273.01639pt x 170.63524pt.
 
-Overfull \hbox (18.65813pt too wide) in paragraph at lines 254--257
+Overfull \hbox (3.65813pt too wide) in paragraph at lines 254--257
  [][] 
  []
 
 
-Overfull \hbox (18.65813pt too wide) in paragraph at lines 254--257
+Overfull \hbox (3.65813pt too wide) in paragraph at lines 254--257
  [] 
  []
 
-<Figures/ACEmagfield2011_01_06.png, id=220, 642.4pt x 542.025pt>
+[7 <./Figures/X_gram.jpg> <./Figures/Y_gram.jpg> <./Figures/Z_gram.jpg> <./Figu
+res/Superdarn/superdarn_21_30.jpg> <./Figures/Superdarn/superdarn_21_52.jpg> <.
+/Figures/Superdarn/superdarn_22_32.jpg> <./Figures/Superdarn/superdarn_23_52.jp
+g>] <Figures/ACEmagfield2011_01_06.png, id=227, 642.4pt x 542.025pt>
 File: Figures/ACEmagfield2011_01_06.png Graphic file (type png)
 
 <use Figures/ACEmagfield2011_01_06.png>
@@ -877,22 +884,12 @@ Package pdftex.def Info: Figures/ACEmagfield2011_01_06.png used on input line 2
 69.
 (pdftex.def)             Requested size: 256.95544pt x 216.80615pt.
 
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 269--271
- [][] 
- []
-
-[7 <./Figures/Superdarn/superdarn_21_30.jpg> <./Figures/Superdarn/superdarn_21_
-52.jpg> <./Figures/Superdarn/superdarn_22_32.jpg> <./Figures/Superdarn/superdar
-n_23_52.jpg>] <Figures/ACE_H_Density.png, id=231, 642.4pt x 240.9pt>
+<Figures/ACE_H_Density.png, id=231, 642.4pt x 240.9pt>
 File: Figures/ACE_H_Density.png Graphic file (type png)
 
 <use Figures/ACE_H_Density.png>
 Package pdftex.def Info: Figures/ACE_H_Density.png used on input line 282.
 (pdftex.def)             Requested size: 256.95544pt x 96.35828pt.
-
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 282--284
- [][] 
- []
 
 <Figures/ACE_H_Temp_radial.png, id=234, 642.4pt x 240.9pt>
 File: Figures/ACE_H_Temp_radial.png Graphic file (type png)
@@ -900,34 +897,22 @@ File: Figures/ACE_H_Temp_radial.png Graphic file (type png)
 <use Figures/ACE_H_Temp_radial.png>
 Package pdftex.def Info: Figures/ACE_H_Temp_radial.png used on input line 293.
 (pdftex.def)             Requested size: 256.95544pt x 96.35828pt.
-
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 293--295
- [][] 
- []
-
-<Figures/ACE_Na_Np.png, id=237, 642.4pt x 240.9pt>
+ [8 <./Figures/nya4_20110106_0000-2400_5577.png> <./Figures/nya4_20110106_0000-
+2400_6300.png> <./Figures/ACEmagfield2011_01_06.png> <./Figures/ACE_H_Density.p
+ng>]
+<Figures/ACE_Na_Np.png, id=248, 642.4pt x 240.9pt>
 File: Figures/ACE_Na_Np.png Graphic file (type png)
  <use Figures/ACE_Na_Np.png>
 Package pdftex.def Info: Figures/ACE_Na_Np.png used on input line 305.
 (pdftex.def)             Requested size: 256.95544pt x 96.35828pt.
 
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 305--307
- [][] 
- []
-
-[8 <./Figures/nya4_20110106_0000-2400_5577.png> <./Figures/nya4_20110106_0000-2
-400_6300.png> <./Figures/ACEmagfield2011_01_06.png> <./Figures/ACE_H_Density.pn
-g>] <Figures/ACE_SE_velocityGSM.png, id=251, 642.4pt x 441.65pt>
+<Figures/ACE_SE_velocityGSM.png, id=251, 642.4pt x 441.65pt>
 File: Figures/ACE_SE_velocityGSM.png Graphic file (type png)
 
 <use Figures/ACE_SE_velocityGSM.png>
 Package pdftex.def Info: Figures/ACE_SE_velocityGSM.png used on input line 316.
 
 (pdftex.def)             Requested size: 256.95544pt x 176.65686pt.
-
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 316--318
- [][] 
- []
 
 <Figures/ACE_SW_H_Speed.png, id=255, 642.4pt x 240.9pt>
 File: Figures/ACE_SW_H_Speed.png Graphic file (type png)
@@ -936,20 +921,12 @@ File: Figures/ACE_SW_H_Speed.png Graphic file (type png)
 Package pdftex.def Info: Figures/ACE_SW_H_Speed.png used on input line 326.
 (pdftex.def)             Requested size: 256.95544pt x 96.35828pt.
 
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 326--328
- [][] 
- []
-
 <Figures/ACE_positionGSM.png, id=258, 642.4pt x 441.65pt>
 File: Figures/ACE_positionGSM.png Graphic file (type png)
 
 <use Figures/ACE_positionGSM.png>
 Package pdftex.def Info: Figures/ACE_positionGSM.png used on input line 336.
 (pdftex.def)             Requested size: 256.95544pt x 176.65686pt.
-
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 336--338
- [][] 
- []
 
 <Figures/dst1101.png, id=262, 742.775pt x 225.84375pt>
 File: Figures/dst1101.png Graphic file (type png)
@@ -964,56 +941,72 @@ File: Figures/dst_january.png Graphic file (type png)
 <use Figures/dst_january.png>
 Package pdftex.def Info: Figures/dst_january.png used on input line 351.
 (pdftex.def)             Requested size: 242.70862pt x 67.45251pt.
- [9 <./Figures/ACE_H_Temp_radial.png> <./Figures/ACE_Na_Np.png> <./Figures/ACE_
-SE_velocityGSM.png> <./Figures/ACE_SW_H_Speed.png> <./Figures/ACE_positionGSM.p
-ng>]
-<Figures/pvae_2011_01_06.png, id=285, 702.625pt x 451.6875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
+[]$\T1/cmtt/m/n/12 http : / / wdc . kugi . kyoto-[]u . ac . jp / dst _ final /
+ []
+
+[9 <./Figures/ACE_H_Temp_radial.png> <./Figures/ACE_Na_Np.png> <./Figures/ACE_S
+E_velocityGSM.png> <./Figures/ACE_SW_H_Speed.png>]
+<Figures/pvae_2011_01_06.png, id=282, 702.625pt x 451.6875pt>
 File: Figures/pvae_2011_01_06.png Graphic file (type png)
 
 <use Figures/pvae_2011_01_06.png>
 Package pdftex.def Info: Figures/pvae_2011_01_06.png used on input line 364.
 (pdftex.def)             Requested size: 281.04501pt x 180.67178pt.
 
-Overfull \hbox (26.68675pt too wide) in paragraph at lines 364--366
+Overfull \hbox (11.68675pt too wide) in paragraph at lines 364--366
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 432.
-[10 <./Figures/dst1101.png (PNG copy)> <./Figures/dst_january.png> <./Figures/p
-vae_2011_01_06.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 432.
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
+
+ []
+
+
+Overfull \vbox (3.5873pt too high) has occurred while \output is active []
+
+
+[10 <./Figures/ACE_positionGSM.png> <./Figures/dst1101.png (PNG copy)> <./Figur
+es/dst_january.png> <./Figures/pvae_2011_01_06.png (PNG copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
  (./Project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 432.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 432.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
 Package rerunfilecheck Info: File `Project.out' has not changed.
 (rerunfilecheck)             Checksum: EC783F6FDC7BAFBDA57CB98D2A4242B4;1680.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 432.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 422.
  ) 
 Here is how much of TeX's memory you used:
- 8575 strings out of 493089
- 123271 string characters out of 6134842
- 244690 words of memory out of 5000000
+ 8576 strings out of 493089
+ 123267 string characters out of 6134842
+ 250694 words of memory out of 5000000
  11846 multiletter control sequences out of 15000+600000
- 29715 words of font info for 69 fonts, out of 8000000 for 9000
+ 29707 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,9n,40p,757b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/
+e/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Project.pdf (10 pages, 2914486 bytes).
+Output written on Project.pdf (10 pages, 2914921 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
+ 338 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
  57 named destinations out of 1000 (max. 500000)
  344 words of extra memory for PDF output out of 10000 (max. 10000000)
 

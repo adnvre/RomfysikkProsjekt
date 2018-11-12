@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {3}Observations}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}IMAGE data}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}SuperDARN data}{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}All-sky Camera data}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}All-sky Camera data}{8}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}ACE data}{8}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Dst data}{10}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}AE Index data}{10}{subsection.3.6}
