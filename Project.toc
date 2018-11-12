@@ -8,19 +8,19 @@
 \contentsline {subsection}{\numberline {2.2}Super Dual Auroral Radar Network; SuperDARN}{5}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}All-Sky Camera}{5}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Advanced Composition Explorer (ACE)}{5}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Indices}{5}{subsection.2.5}
-\contentsline {subsubsection}{\numberline {2.5.1}Dst (Disturbance storm time)}{5}{subsubsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5}Indices}{6}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Dst (Disturbance storm time)}{6}{subsubsection.2.5.1}
 \contentsline {subsubsection}{\numberline {2.5.2}Auroral Electrojet (AE) Index}{6}{subsubsection.2.5.2}
 \contentsline {subsubsection}{\numberline {2.5.3}Kp index}{6}{subsubsection.2.5.3}
 \contentsline {section}{\numberline {3}Observations}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}IMAGE data}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}SuperDARN data}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}SuperDARN data}{7}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}All-sky Camera data}{7}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}ACE data}{7}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Dst data}{9}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}AE Index data}{9}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Kp Index}{9}{subsection.3.7}
-\contentsline {section}{\numberline {4}Discussion}{9}{section.4}
+\contentsline {subsection}{\numberline {3.4}ACE data}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Dst data}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}AE Index data}{10}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Kp Index}{10}{subsection.3.7}
+\contentsline {section}{\numberline {4}Discussion}{10}{section.4}
 \contentsline {section}{\numberline {5}Conclusion}{10}{section.5}
 \contentsline {section}{\numberline {6}Appendix}{10}{section.6}
 \contentsline {section}{\numberline {7}Refrences and acknowledgements}{10}{section.7}

@@ -11,7 +11,7 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 \usepackage{multicol}
-
+\usepackage{booktabs}
 
 
 \setlength{\parindent}{0em}
@@ -186,6 +186,13 @@ One must be careful when reading keograms however, as they are prone to errors d
 	In this project we are using data from a heliospheric satellite called ACE, which stands for Advanced Composition Explorer. ACE is a NASA satellite that gives us info about the solar wind. It is positioned in the L1 liberation point, about 1.5 million km from the Earth. The instrumentation on the satellite includes an Electron, Proton and Alpha Monitor(EPAM) from Johns Hopkins University Applied Physics Laboratory. Magnetic Field (MAG) from the University of Delaware Bartol Research Institute and subsequently University of New Hampshire. Solar Isotope Spectrometer (SIS) California Institute of Technology. Solar Wind Electron Proton and Alpha Monitor (SWEPAM) Los Alamos National Laboratory. We will be using the MAG and the SEWPAM. \\
 
 	The MAG can give us the B-field magnitude and the magnetic field vector in different coordinate systems, such as GSM, GSE and RTN. The SWEPAM gives us information about the solar wind(SW) proton number density, the SW bulk speed, alpha to proton density ratio, the SW velocity in the same coordinate systems as the MAG and also the position of ACE.
+
+	\begin{figure}[H]
+		\includegraphics[scale=0.5]{Figures/ace_exploded.png}
+		\centering
+		\caption{Exploded view of the ACE satellite, here we can see the two instruments we will be using. Source: \url{http://www.srl.caltech.edu/ACE/ace_mission.html}}
+		\label{fig:ace_exploded}
+	\end{figure}
 % subsection ACE (end)
 
 \subsection{Indices} % (Short description of the instrument indices)
@@ -203,8 +210,8 @@ Using the AE index we can observe substorms. The AE index measures the strenght 
 
 \subsubsection{Kp index} % (fold)
 \label{sub:Kp_index}
-I'l write about the KP index a little later
-% subsection Kp index (end)
+The Kp index is yet another way to monitor geomagnetic disturbances from the ground. There are 13 subauroral stations that record the disturbance of the two horisontal magnetic field components. The meand value of this makes the Global Kp index. It is given with three hour intervals at values from 0 to 9 according to a quasi-logarithmic scale, and this is then divided into 28 values on the form $0o,0+,1-,1o,1+,2-,2o,2+...8o,8+,9-,9o$. This then represents the magnitude of the geomagnetic storm.
+% subsubsection Kp index (end)
 
 % subsection indices (end)
 
@@ -352,7 +359,7 @@ Figure \ref{fig:Dst} shows both a graphic representation of the Dst, and the val
 \subsection{AE Index data} % (fold)
 \label{sub:AE_index_data}
 
-
+The AE index is relatively quiet until about 2130UT at which point there is activity in the lower envelope to a maximum value around -600nT
 \begin{figure}[H]
 	\includegraphics[scale=0.4]{Figures/pvae_2011_01_06.png}
 	\centering
@@ -365,6 +372,14 @@ Figure \ref{fig:Dst} shows both a graphic representation of the Dst, and the val
 \subsection{Kp Index} % (fold)
 \label{sub:kp_index}
 
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+\hline
+Date       & \multicolumn{8}{l|}{Kp three-hourly} \\ \hline
+           & 1   & 2   & 3 & 4  & 5  & 6 & 7 & 8  \\ \hline
+2011/01/06 & 1+  & 0+  & 0 & 0+ & 0+ & 1 & 2 & 4+ \\ \hline
+\end{tabular}
+\end{table}
 % subsection kp_index (end)
  
 % section observations (end)
